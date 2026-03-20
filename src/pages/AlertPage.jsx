@@ -27,7 +27,7 @@ export default function AlertPage({ onNext }) {
 
                 <div className="alert-details">
                     <p className="alert-message">
-                        We noticed a sign-in attempt from a new device or location.
+                        We noticed a sign-in attempt from a new device or location for account <strong>marshudap3d0</strong>.
                         For your protection, please verify your identity to secure your account.
                     </p>
 
