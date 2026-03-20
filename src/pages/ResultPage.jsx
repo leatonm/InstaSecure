@@ -31,7 +31,7 @@ export default function ResultPage({ data, startTime }) {
                     <div className="success-icon">✓</div>
                     <h1 className="success-title">Your account has been verified</h1>
                     <p className="success-message">You can now close this page</p>
-                    <p className="redirect-notice">Redirecting to drugcards.app...</p>
+                    <p className="redirect-notice">Redirecting to Instagram..</p>
                 </div>
             </Card>
 

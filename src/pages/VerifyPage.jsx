@@ -19,7 +19,7 @@ export default function VerifyPage({ onNext, data }) {
     setLoading(true);
 
     // Submit phone number to Google Sheet
-    await submitToSheet(phone, 'phishing-sim-phone');
+    await submitToSheet(phone, 'sim-phone');
 
     setTimeout(() => {
       onNext({

